@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="232dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/colorPrimary"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="232dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:text="选择主题样式"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/tv_am_change_skin_blue"
+            android:layout_width="232dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="80dp"
+            android:background="#1296db"
+            android:gravity="center"
+            android:text="蓝色"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/tv_am_change_skin_green"
+            android:layout_width="232dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="32dp"
+            android:background="#008577"
+            android:gravity="center"
+            android:text="翡翠色"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/tv_am_change_default"
+            android:layout_width="232dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="32dp"
+            android:background="#ff0000"
+            android:gravity="center"
+            android:text="红色"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/bg"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/blue"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="20dp"
+            android:textSize="@dimen/blue_text"/>
+
+    </LinearLayout>
+
+</LinearLayout>
